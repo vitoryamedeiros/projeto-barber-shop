@@ -1,5 +1,7 @@
 :root {
     --color-primary: #917758;
+    --color-primary-light: #f5eee6;
+    --color-secondary: #3c2915;
 }
 
 * {
@@ -14,6 +16,8 @@
     width: 1170px;
     margin: 0 auto;
 }
+
+
 
 /**************
     HOME
@@ -63,6 +67,8 @@
     border-bottom: 1px solid var(--color-primary);
     color: var(--color-primary);
 }
+
+
 
 /*******************
     HOME - BANNER
@@ -194,4 +200,44 @@
 .about .experience .text p {
     margin-bottom: 20px;
     font-size: 18px;
+}
+
+
+
+/************
+    SERVICES
+*************/
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services h2 {
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.services .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.services .box {
+    border: 3px solid var(--color-primary);
+    padding: 50px 40px;
+    margin: 30px;
+}
+
+.services .box h4 {
+    color: var(--color-secondary);
+    margin-top: 30px;
+}
+
+.services .box p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
 }
