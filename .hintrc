@@ -7,5 +7,15 @@
     "not ie 11",
     "not and_ff <= 106",
     "not firefox <= 107"
-  ]
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off",
+        "label": "off"
+      }
+    ],
+    "button-type": "off"
+  }
 }

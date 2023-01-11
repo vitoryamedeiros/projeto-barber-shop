@@ -211,12 +211,14 @@
 .services {
     padding: 100px 0;
     text-align: center;
+    background-color: rgb(249, 235, 213);
 }
 
 .services h2 {
     color: var(--color-secondary);
     font-weight: 400;
     font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .services .boxes {
@@ -240,4 +242,123 @@
     margin-top: 20px;
     font-size: 14px;
     line-height: 25px;
+}
+
+
+
+/***************
+    APPOINTMENT
+****************/
+
+.appointment {
+    padding: 100px 0;
+    background-color: var(--color-primary);
+    height: 100vh;
+    background-image: url(../files/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+}
+
+.appointment h2 {
+    color: var(--color-primary-light);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.appointment img {
+    margin: 0 auto;
+    display: block;
+}
+
+.appointment form {
+    margin-top: 80px;
+}
+
+.appointment .personal-data {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.appointment .input-wrapper {
+    width: 100%;
+    margin-right: 60px;
+}
+
+.appointment .input-wrapper:last-of-type {
+    margin: 0;
+}
+
+.appointment label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: var(--color-primary-light);
+}
+
+.appointment .personal-data input, .appointment .personal-data select, .appointment textarea {
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.appointment textarea {
+    height: 100px;
+}
+
+.appointment button {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    margin-top: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/***********
+    GALLERY
+************/
+
+.gallery {
+    padding: 100px 0;
+    background-color: var(--color-primary-light);
+}
+
+.gallery h2 {
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gallery img {
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery .gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 100vh;
+    margin: 50px auto;
+}
+
+.gallery .gallery-wrapper div {
+    border: 10px solid var(--color-primary);
+    margin: 6px;
+    width: 33%;
+}
+
+.gallery .gallery-wrapper div img{
+    width: 100%;
 }
